@@ -1,2 +1,2 @@
 # terraform-gke-jenkins
-![Architecture diagram](architecture.png?raw=true "Title")
+![Architecture diagram](architecture.drawio.png?raw=true "Title")
