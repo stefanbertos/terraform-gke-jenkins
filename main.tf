@@ -96,14 +96,14 @@ provider "kubernetes" {
 }
 
 #https://github.com/bitnami/charts/tree/master/bitnami/jenkins/
-resource "helm_release" "jenkins" {
+/*resource "helm_release" "jenkins" {
   name       = "jenkins"
   repository = "https://charts.bitnami.com/bitnami"
   chart      = "jenkins"
   version    = "10.0.6"
   timeout    = 900
 }
-
+*/
 
 
 
