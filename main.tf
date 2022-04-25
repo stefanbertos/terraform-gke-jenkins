@@ -100,7 +100,7 @@ resource "helm_release" "jenkins" {
   name       = "jenkins"
   repository = "https://charts.bitnami.com/bitnami"
   chart      = "jenkins"
-  version    = "2.332.2"
+  version    = "10.0.6"
   timeout    = 900
 }
 
